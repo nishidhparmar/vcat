@@ -200,4 +200,7 @@ p {
   .banner {
     display: none;
   }
+  .login-details {
+    width: 80%;
+  }
 }
