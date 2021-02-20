@@ -3,6 +3,14 @@
   padding: 0%;
   box-sizing: border-box;
 }
+@font-face {
+  font-family: Gilroy;
+  src: url(./Font-20210220T111438Z-001/Font/Gilroy-FREE/Gilroy-ExtraBold.otf);
+}
+@font-face {
+  font-family: SF Pro Display;
+  src: url(./Font-20210220T111438Z-001/Font/SF-Font-Pro/SF-Pro-Display-Regular.otf);
+}
 @import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
 main {
   display: flex;
@@ -16,10 +24,15 @@ main {
   flex-direction: column;
 }
 .logo {
-  width: 90%;
+  width: 60%;
   margin-left: 10%;
   display: flex;
+  justify-items: center;
   align-items: center;
+}
+.logo .imgbx {
+  height: 100px;
+  width: 100px;
 }
 .banner {
   background: rgba(230, 171, 57, 0.15);
@@ -56,10 +69,14 @@ input:hover {
   background-color: #d6d3cb !important;
   color: white !important;
   transition: 0.5s ease !important;
+  font-family: SF Pro Display !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  
 }
 .btn:hover {
   background-color: #e6ab39 !important;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .btn-create {
@@ -83,6 +100,7 @@ h2 {
   line-height: 42px;
   letter-spacing: 0em;
   text-align: left;
+  font-family: Gilroy;
 }
 h3 {
   font-style: normal;
@@ -90,6 +108,7 @@ h3 {
   line-height: 42px;
   letter-spacing: 0em;
   text-align: left;
+  font-family: Gilroy;
 }
 
 a {
@@ -101,11 +120,13 @@ label {
   font-weight: 700 !important;
   color: black !;
   font-size: 15px !important;
+  font-family: SF Pro Display;
 }
 p {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
   color: black !;
   font-size: 15px !important;
+  font-family: SF Pro Display !important;
 }
 
 .banner {
@@ -201,6 +222,10 @@ p {
     display: none;
   }
   .login-details {
+    width: 80%;
+  }
+  .logo {
+    margin-left: 0% !important;
     width: 80%;
   }
 }
