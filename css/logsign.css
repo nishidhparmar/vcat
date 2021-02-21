@@ -17,28 +17,43 @@ main {
   min-height: 100vh;
 }
 .ani-heading.animate__animated.animate__slideInLeft {
-  animation-duration: 1s;
+  animation-duration: .3s ;
+  animation-timing-function: ease-in-out;
 }
 .ani-name.animate__animated.animate__slideInLeft {
-  animation-duration: 1.5s;
+  animation-duration: .4s;
+  animation-timing-function: ease-in-out;
+
 }
 .ani-email.animate__animated.animate__slideInLeft {
-  animation-duration: 2s;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+
 }
 .ani-pass.animate__animated.animate__slideInLeft {
-  animation-duration: 2.5s;
+  animation-duration: .6s;
+  animation-timing-function: ease-in-out;
+
 }
 .ani-btn.animate__animated.animate__slideInLeft {
-  animation-duration: 3s;
+  animation-duration: .7s;
+  animation-timing-function: ease-in-out;
+
 }
 .ani-email-l.animate__animated.animate__slideInLeft {
   animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+
 }
 .ani-pass-l.animate__animated.animate__slideInLeft {
   animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+
 }
 .ani-btn-l.animate__animated.animate__slideInLeft {
   animation-duration: 2.5s;
+  animation-timing-function: ease-in-out;
+
 }
 .login {
   background-color: white;
