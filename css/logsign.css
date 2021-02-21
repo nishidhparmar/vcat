@@ -91,7 +91,7 @@ span.color-text {
 }
 input {
   height: 40px;
-  margin: 10px 0px 15px 0px !important;
+  margin: 8px 0px 24px 0px !important;
 }
 input:hover {
   border-color: black;
@@ -104,6 +104,8 @@ input:hover {
 ::placeholder{
   font-size: 14px !important;
   font-family: SF Pro Display !important;
+  font-weight: 400 !important;
+  color: #D6D3CB !important;
   
 }
 .btn {
@@ -115,6 +117,7 @@ input:hover {
   font-family: SF Pro Display !important;
   font-weight: 600 !important;
   font-size: 12px !important;
+  margin-top: 8px;
   /* cursor: not-allowed !important; */
   
 }
