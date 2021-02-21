@@ -90,7 +90,7 @@ span.color-text {
   font-size: 50px !important;
 }
 input {
-  height: 72px;
+  height: 40px;
   margin: 10px 0px 15px 0px !important;
 }
 input:hover {
@@ -101,10 +101,14 @@ input:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0) inset,
     0px 0px 8px rgba(255, 100, 255, 0.5);
 }
-
+::placeholder{
+  font-size: 14px !important;
+  font-family: SF Pro Display !important;
+  
+}
 .btn {
   width: 100%;
-  height: 56px;
+  height: 40px;
   background-color: #d6d3cb !important;
   color: white !important;
   transition: 0.5s ease !important;
