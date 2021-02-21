@@ -107,6 +107,7 @@ input:focus {
   font-weight: 400 !important;
   color: #d6d3cb !important;
 }
+
 .btn {
   width: 100%;
   /* height: 80px !important; */
@@ -122,6 +123,7 @@ input:focus {
 }
 .btn-enable {
   background-color: #e6ab39 !important;
+  cursor:pointer !important;
 }
 
 .btn-create {
