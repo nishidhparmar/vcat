@@ -16,6 +16,30 @@ main {
   display: flex;
   min-height: 100vh;
 }
+.ani-heading.animate__animated.animate__slideInLeft {
+  animation-duration: 1s;
+}
+.ani-name.animate__animated.animate__slideInLeft {
+  animation-duration: 1.5s;
+}
+.ani-email.animate__animated.animate__slideInLeft {
+  animation-duration: 2s;
+}
+.ani-pass.animate__animated.animate__slideInLeft {
+  animation-duration: 2.5s;
+}
+.ani-btn.animate__animated.animate__slideInLeft {
+  animation-duration: 3s;
+}
+.ani-email-l.animate__animated.animate__slideInLeft {
+  animation-duration: 1.5s;
+}
+.ani-pass-l.animate__animated.animate__slideInLeft {
+  animation-duration: 2s;
+}
+.ani-btn-l.animate__animated.animate__slideInLeft {
+  animation-duration: 2.5s;
+}
 .login {
   background-color: white;
   width: 50%;
@@ -72,19 +96,19 @@ input:hover {
   font-family: SF Pro Display !important;
   font-weight: 600 !important;
   font-size: 12px !important;
+  /* cursor: not-allowed !important; */
   
 }
-.btn:hover {
+.btn-enable {
   background-color: #e6ab39 !important;
-  letter-spacing: 1px;
 }
 
 .btn-create {
   font-size: 12px !important;
 }
-.btn-create:hover {
+/* .btn-create:hover {
   letter-spacing: 1px;
-}
+} */
 
 .color-text {
   color: #e6ab39;
@@ -120,6 +144,7 @@ label {
   font-weight: 700 !important;
   color: black !;
   font-size: 15px !important;
+  display: block !important;
   font-family: SF Pro Display;
 }
 p {
