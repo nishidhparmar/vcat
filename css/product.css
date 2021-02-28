@@ -25,6 +25,12 @@ header {
 }
 .categories {
   /* background-color: cadetblue; */
+  
+}
+.items{
+  
+  padding: 80px 0px 0px 0px;
+
 }
 h3 {
   font-weight: 800;
