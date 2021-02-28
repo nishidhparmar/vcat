@@ -11,6 +11,9 @@
   font-family: SF Pro Display;
   src: url(./Font-20210220T111438Z-001/Font/SF-Font-Pro/SF-Pro-Display-Regular.otf);
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #ffffff;
 }
